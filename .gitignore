@@ -1,0 +1,14 @@
+# Project
+build/
+vendor/
+*.log
+
+# General
+Desktop.ini
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+*.sublime-workspace
+*.sublime-project
