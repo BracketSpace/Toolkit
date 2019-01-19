@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+
+<?php
+/**
+ * BracketSpace Toolkit CLI
+ *
+ * @package BracketSpace/Toolkit
+ */
+
+if ( file_exists( __DIR__ . '/../vendor/autoload.php' ) ) {
+	require_once __DIR__ . '/../vendor/autoload.php';
+} else {
+	exit( 'autoload.php not found.' );
+}
+
+require_once __DIR__ . '/../src/bootstrap.php';
